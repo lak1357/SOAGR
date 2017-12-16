@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aut="http://authentication.services.core.carbon.wso2.org">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <aut:login>
+         <!--Optional:-->
+         <aut:username>admin</aut:username>
+         <!--Optional:-->
+         <aut:password>admin</aut:password>
+         <!--Optional:-->
+         <aut:remoteAddress>localhost</aut:remoteAddress>
+      </aut:login>
+   </soapenv:Body>
+</soapenv:Envelope>
